@@ -38,7 +38,7 @@ function getGmail2GDriveConfig() {
         "folder": "Scans"
       }, 
       
-      //received the Emails from: who? as an example Apply this action just for the mails that coming from Proquest.
+      //received the Emails from: who? as an example Apply this action just for the mails that coming from Proquest website.
        { 
         "filter": "from:alert@proquest.com",
         "folder": "ProquestAlerts"
