@@ -14,7 +14,7 @@ Features
 * Filter for relevant emails (In Config.gs file as an example Apply this action just for the mails that coming from Proquest "filter": "from:alert@proquest.com“ )
 * Specify the destination folder in the (in config.gs file "folder": "ProquestAlerts“)
 * Rename attachments Automatically (in config.gs file using date format strings and email subject as filenames "filenameTo": "'file-'yyyy-MM-dd-'%s'").
-Extract automatically The search strategies from Mail Body to google spread sheet file.
+* Extract automatically The search strategies from Mail Body to google spread sheet file.
 
 
 
