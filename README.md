@@ -72,7 +72,7 @@ Example Configuration
 ```javascript
 /**
  * Configuration for Gmail2GDrive
- * See https://github.com/ahochsteger/gmail2gdrive/blob/master/README.md for a config reference
+ * See https://github.com/AbdelazizMOKRANI/MyGmail2Gdrive/README.md for a config reference
  */
 function getGmail2GDriveConfig() {
   return {
