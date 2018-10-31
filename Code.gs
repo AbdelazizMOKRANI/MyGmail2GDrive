@@ -172,9 +172,10 @@ function Gmail2GDrive() {
                                     r.push(txt.substring(start_, j+1));
                                 }
                               }
-                            }                        
+                            }   
+		            //Regex for extract the keywords that start with these characters (to,an,su(keywords)) 		    
                             var rx = "\\b(?:ti|ab|su)(?:,(ti|ab|su))*\\(";
-                            //Extract from the LIST all the string text that contains these caracteres (ti,ab,su)
+                            //Extract from the list all the string text that contains these caracteres (ti,ab,su)
                             var result = r.filter(function(y) { return new RegExp(rx, "i").test(y); }).map(function(x) {return x.replace(new RegExp(rx, "ig"), '(')});
                             //in case we have ),( Replace the comma with whitespace 
                             var finalResult=result.toString().replace(/[)],[(]/g,") (");
